@@ -102,7 +102,7 @@ a:hover::before
         margin: 6px 0px
 }
 
-.hamburger:hover
+.hamburger:target
 {
     height: 160px;
     width: 200px;
