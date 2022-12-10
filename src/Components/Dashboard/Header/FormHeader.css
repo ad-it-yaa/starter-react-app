@@ -40,3 +40,12 @@
     margin-right: 40px;
     text-decoration: none !important;
 }
+@media (max-width:645px)
+{
+    .form_header
+    {
+        position: absolute;
+        right: 20px;
+        padding: 0;
+    }
+}
