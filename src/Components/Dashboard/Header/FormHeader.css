@@ -58,4 +58,9 @@
     {
         font-size: small;
     }
+    .mvz
+    {
+        position: absolute;
+        right: 8px !important;
+    }
 }
