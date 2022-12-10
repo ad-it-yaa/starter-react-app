@@ -225,6 +225,7 @@ textarea
     }
     .submit
     {
-        margin-left: 30vw;
+        margin-left: 35vw;
+        margin-bottom: 20px;
     }
 }

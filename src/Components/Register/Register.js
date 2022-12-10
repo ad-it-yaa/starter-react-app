@@ -178,8 +178,9 @@ let random = Math.floor(Math.random() * 5);
                   formik.errors.password && formik.touched.password ? <div className='red'>{formik.errors.password}</div> : null
                 }
               </div>
-              <br />
+              <br/>
               <button type='submit' className='submit'>Submit</button>
+              
               <ToastContainer
               position="bottom-right"
               autoClose={5000}
