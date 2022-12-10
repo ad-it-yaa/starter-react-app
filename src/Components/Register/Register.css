@@ -216,6 +216,7 @@ textarea
         margin: 0;
         padding: 0;
         margin-left: 25px;
+        display: block;
     }
     .red
     {
