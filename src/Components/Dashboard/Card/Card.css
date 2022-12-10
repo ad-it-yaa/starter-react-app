@@ -92,8 +92,10 @@
 {
     .card_body
     {
+        margin-top: 100px;
      width: 370px;
-     height: 280px;
+     height: 260px;
+     margin-bottom: 60px;
     }
     .cardholder_name
     {
@@ -102,5 +104,25 @@
     .summary
     {
         width: 100%;
+    }
+    .cardnumber
+    {
+        margin-top: 6px;
+    }
+    .chip{
+        height: 40px;
+        width: 40px;
+    }
+    .line1
+    {
+        height: 40px;
+    }
+    .header
+    {
+        display: none;
+    }
+    .summary
+    {
+        border: 0;
     }
 }

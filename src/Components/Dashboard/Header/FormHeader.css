@@ -45,7 +45,11 @@
     .form_header
     {
         position: absolute;
-        right: 20px;
+        right: 7px;
         padding: 0;
+    }
+    .nav_diva
+    {
+        font-size: small;
     }
 }
