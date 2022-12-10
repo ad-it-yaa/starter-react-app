@@ -141,6 +141,10 @@ textarea
     position: absolute;
     top: 100px;
 }
+.mobile_register
+{
+    display: none;
+}
 @media (max-width:645px)
 {
     .register_main_container
