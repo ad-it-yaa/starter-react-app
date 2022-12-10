@@ -122,11 +122,12 @@ let random = Math.floor(Math.random() * 5);
       <div className='register_main_container'>
         <div className='section2'>
 
-          <div className='registration_container'>
+          
             <div className='register_heading'><p className='register_headtext'>Registration Form</p></div>
-          </div>
+          
           <div className='form'>
             <form onSubmit={formik.handleSubmit}>
+              <br/>
             <p className='mobile_register'>Enter your Email ID:</p>
               <div>
                 
