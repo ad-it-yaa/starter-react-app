@@ -111,26 +111,27 @@ input::-webkit-inner-spin-button {
     .section_container
     {
         width: 100%;
-        flex-direction: row;
+        flex-direction: column-reverse;
         margin: 0px;
         padding: 0px;
     }
     .login_input
     {
-        width: 40vw !important;
+        width:66vw !important;
     }
     .login_section2
     {
-        width: 50vw;
+        width: 80vw;
         margin: 0;
         padding: 0;
-        height: 40vh;
+        height: 70vh;
     }
     .login_section1
     {
         margin: 0;
         padding: 0;
         margin-right: 20px;
-        width: 39vw;
+        width: 00vw;
+        display: none;
     }
 }
