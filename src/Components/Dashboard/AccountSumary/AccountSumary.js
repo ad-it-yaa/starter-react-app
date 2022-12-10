@@ -10,7 +10,7 @@ export default function AccountSumary() {
     const [amount,setAmount] = useState('')
     const [card,setCard] = useState('')
 
-    const data = fetch(`http://localhost:3001/login?id=${session}`)
+    const data = fetch(`https://nat-api.onrender.com/login?id=${session}`)
         .then(res => res.json())
         .then(obj =>{
             setId(obj[0].id)
