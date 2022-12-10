@@ -127,13 +127,16 @@ let random = Math.floor(Math.random() * 5);
           </div>
           <div className='form'>
             <form onSubmit={formik.handleSubmit}>
+            <p className='mobile_register'>Enter your Email ID:</p>
               <div>
+                
                 <input type='text' className='input' name='id' id='id' onSubmit={formik.handleSubmit} onChange={formik.handleChange}></input>
                 <label className='form_placeholder'>Email<span className='mandatory'>*</span></label>
                 {
                   formik.errors.id && formik.touched.id ? <div className='red'>{formik.errors.id}</div> : null
                 }
               </div>
+              <p className='mobile_register'>Enter your name:</p>
               <div>
                 <input type='text' className='input' name='name' id='name' onSubmit={formik.handleSubmit} onChange={formik.handleChange} ></input>
                 <label className='form_placeholder'>Username<span className='mandatory'>*</span></label>
@@ -141,6 +144,7 @@ let random = Math.floor(Math.random() * 5);
                   formik.errors.name && formik.touched.name ? <div className='red'>{formik.errors.name}</div> : null
                 }
               </div>
+              <p className='mobile_register'>Enter your Address:</p>
               <div>
                 <textarea rows="5" className='input' name='address' id='address' onSubmit={formik.handleSubmit} onChange={formik.handleChange} ></textarea>
                 <label className='form_placeholder1'>Address<span className='mandatory'>*</span></label>
@@ -148,6 +152,7 @@ let random = Math.floor(Math.random() * 5);
                   formik.errors.address && formik.touched.address ? <div className='red'>{formik.errors.address}</div> : null
                 }
               </div>
+              <p className='mobile_register'>Enter your Account no:</p>
               <div>
                 <input type='text' className='input' name='account' id='account' onSubmit={formik.handleSubmit} onChange={formik.handleChange} ></input>
                 <label className='form_placeholder'>Account No.<span className='mandatory'>*</span></label>
@@ -155,6 +160,7 @@ let random = Math.floor(Math.random() * 5);
                   formik.errors.account && formik.touched.account ? <div className='red'>{formik.errors.account}</div> : null
                 }
               </div>
+              <p className='mobile_register'>Enter your Phone no:</p>
               <div>
                 <input type='number' className='input' name='phone' id='phone' onSubmit={formik.handleSubmit} onChange={formik.handleChange} ></input>
                 <label className='form_placeholder'>Phone Number<span className='mandatory'>*</span></label>
@@ -163,6 +169,7 @@ let random = Math.floor(Math.random() * 5);
                 }
 
               </div>
+              <p className='mobile_register'>Enter your password:</p>
               <div>
                 <input type='password' className='input' name='password' id='password' onSubmit={formik.handleSubmit} onChange={formik.handleChange} ></input>
                 <label className='form_placeholder'>Password<span className='mandatory'>*</span></label>
