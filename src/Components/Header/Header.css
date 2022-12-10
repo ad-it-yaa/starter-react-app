@@ -86,8 +86,8 @@ a:hover::before
 }
 .header
 {
-    justify-content: space-around;
-    align-items:center;
+    justify-content: center;
+    align-items:flex-start;
 }
 .ham
 {
