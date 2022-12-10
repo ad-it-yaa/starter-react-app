@@ -73,7 +73,7 @@ a:hover::before
     padding: 0 5px;
     
 }
-.hamburger
+.hamburger-menu
 {
     display: none;
 }
@@ -83,10 +83,6 @@ a:hover::before
 {
    display: none !important;
    background-color:yellow;
-}
-.hamburger
-{
-    display:block;
 }
 .header
 {
@@ -101,26 +97,24 @@ a:hover::before
         background-color: black;
         margin: 6px 0px
 }
-
-.hamburger:active
-{
-    height: 160px;
+nav.hamburger-menu aside {
     width: 200px;
-    position: absolute;
-    top: 70px;
-    right: 70px;
-    padding: 0.5rem;
-    z-index: 2;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    justify-content: space-around;
-    background-color: black;
-    border-radius: 0.25em;
-    
-    
 }
-.menu_list
+nav.hamburger-menu {
+    color: white;
+    background-color: rgb(66,21,94);
+    display: block;         
+}
+.nav_menu
 {
-    
+    color:wheat;
+}
+.nav_div
+{
+    padding-bottom: 40px;
 }
 }
