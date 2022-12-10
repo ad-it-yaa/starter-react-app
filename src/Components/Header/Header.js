@@ -17,10 +17,15 @@ export default function ()
             <div className='nav_div'><NavLink to="/register" className='nav_menu active'>Register</NavLink></div>
             <div className='nav_div'><NavLink className='nav_menu active' to="/login">Login</NavLink></div>
             </div>
+            <br/>
             <div className='hamburger'>
               <div className='ham'></div>
               <div className='ham'></div>
               <div className='ham'></div>
+              <div className='nav_div'><NavLink to=""  className='nav_menu active'>Home</NavLink></div>
+            <div className='nav_div'><NavLink to="/about"  className='nav_menu active'>About Us</NavLink></div>
+            <div className='nav_div'><NavLink to="/register" className='nav_menu active'>Register</NavLink></div>
+            <div className='nav_div'><NavLink className='nav_menu active' to="/login">Login</NavLink></div>
             </div>
             
             

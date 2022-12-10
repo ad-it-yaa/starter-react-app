@@ -6,6 +6,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-gap:2em;
+    width:100%;
 
     
 }
@@ -105,4 +106,85 @@ h3
     font-weight: bolder;
     color: purple;
     font-family: cursive;
+}
+.picture
+{
+    display: none;
+}
+@media (max-width:645px)
+{
+
+    body
+    {
+        
+        width: 100%;
+        
+    }
+    .main_container
+    {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* overflow-x: hidden; */
+        border: 0px;
+        
+    }
+    .main_container > div 
+    {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        border: 0;
+        
+    }
+    
+    .graph
+    {
+        display: none;
+    }
+    .main_content
+    {
+        width: 80%;
+    }
+    .main_container > div > p
+    {
+        
+        width: 80% !important;
+        word-wrap: break-word;
+        font-size: smaller;
+        margin-left: 20px;
+    }
+
+    .main_container > div:nth-child(odd)
+{
+    background-color: rgb(245,240,233);
+    background: repeating-linear-gradient(
+        45deg,
+        rgb(66,21,94),
+        rgb(66,21,94)
+      );
+      color: white;
+      width: 100%;
+      
+}
+.main_container > div > h3 
+{
+    font-size: large;
+    font-weight: bolder;
+}
+.picture
+{
+    width: 100%;
+    display: block;
+}
+.main_container > div > img
+{
+    width: 80%;
+}
+.home_head_font
+{
+    font-size: small !important;
+    font-weight: bolder !important;
+}
 }
