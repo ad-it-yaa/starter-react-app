@@ -29,7 +29,7 @@ export default function Register() {
   const [advertisement, setAdvertisement] = useState([])
   const [link,setLink] = useState([])
   useEffect(() => {
-    fetch('http://localhost:3001/image')
+    fetch('https://nat-api.onrender.com/image')
       .then(res => res.json())
       .then(value => {
         setAdvertisement(value)
@@ -61,12 +61,12 @@ let random = Math.floor(Math.random() * 5);
     },
     onSubmit: values => {
 
-      let checkuser = fetch(`http://localhost:3001/login?id=${values.id}`)
+      let checkuser = fetch(`https://nat-api.onrender.com/login?id=${values.id}`)
         .then(res => res.json())
         .then(obj => {
           if (obj.length == 0) {
 
-            fetch('http://localhost:3001/login',
+            fetch('https://nat-api.onrender.com/login',
               {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },

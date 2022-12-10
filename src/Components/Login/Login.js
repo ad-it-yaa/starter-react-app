@@ -18,7 +18,7 @@ export default function Login() {
   let random = Math.floor(Math.random() * 4);
   const [link,setLink] = useState([])
   useEffect(() => {
-    fetch('http://localhost:3001/image')
+    fetch('https://nat-api.onrender.com/image')
       .then(res => res.json())
       .then(value => {
         setAdvertisement(value)
@@ -39,7 +39,7 @@ export default function Login() {
         password:''
     },
     onSubmit: values => {
-        fetch(`http://localhost:3001/login?id=${values.id}`)
+        fetch(`https://nat-api.onrender.com/login?id=${values.id}`)
             .then(res => res.json())
             .then(obj =>
               {
