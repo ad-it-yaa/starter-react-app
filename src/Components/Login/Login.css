@@ -106,3 +106,31 @@ input::-webkit-inner-spin-button {
 {
     margin-left:10px
 }
+@media (max-width:645px)
+{
+    .section_container
+    {
+        width: 100%;
+        flex-direction: row;
+        margin: 0px;
+        padding: 0px;
+    }
+    .login_input
+    {
+        width: 40vw !important;
+    }
+    .login_section2
+    {
+        width: 50vw;
+        margin: 0;
+        padding: 0;
+        height: 40vh;
+    }
+    .login_section1
+    {
+        margin: 0;
+        padding: 0;
+        margin-right: 20px;
+        width: 39vw;
+    }
+}
